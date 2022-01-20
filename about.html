@@ -6,44 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/about.css">
 </head>
 
 <body>
-    <header>
-        <section>
-            <div>
-                <img src="http://todo-list.ch/wp-content/uploads/2016/10/logo_script_blue_00-1.png"
-                    alt="to do list img ">
-            </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li> <a href="./index.html"> home</a></li>
-                        <li><a href="./about.html"> about</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
+    <header class="container">
+        
+
+            <img src="http://todo-list.ch/wp-content/uploads/2016/10/logo_script_blue_00-1.png" alt="to do list img "
+                class="header-logo">
+
+            <nav class="header-nav">
+
+                <a href="./index.html"> home</a>
+                <a href="./about.html"> about</a>
+
+            </nav>
+
+        
 
     </header>
     <main>
-        <section>
-            <div>
-                <img src="./assets/download.png" alt="">
-                <p>khadyjh Al-abbadi </p>
-                <p> frish gradiuate in Software engineering 24 years old </p>
+        <section class="container info-section">
+                <img src="./assets/download.png" alt="" class="info-img">
+                <article>khadyjh Al-abbadi </article>
+                <article> frish gradiuate in Software engineering 24 years old  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia iusto ipsam? Mollitia id nesciunt eaque repellat libero. Quas distinctio blanditiis facilis nam aliquam, quibusdam cupiditate atque soluta itaque? Perferendis.</article>
 
-            </div>
+            
         </section>
 
-        <section>
-            <h3>Contavt info form </h3>
-            <form action="">
+        <section class="container  contact">
+            <h2>Contact info form </h2>
+            <form action="" >
                 <input type="text" placeholder="Enter your Name"> <br>
                 <input type="email" placeholder="Enter your Email"><br>
-                <textarea placeholder="type your message hear"  rows="4" cols="50">
+                <input type="number" placeholder="Enter your number"><br>
+                <textarea placeholder="type your message hear" >
                     </textarea>
-                    <br>
+                <br>
 
                 <button> Submit</button>
             </form>
@@ -51,14 +51,8 @@
     </main>
     <footer>
         <div>
-            <p> &copy; 2022</p>
-            <p>
-                contact us :
-            <ul>
-                <li>email:</li>
-                <li>number:</li>
-            </ul>
-            </p>
+            <p>All right reseved &copy; 2022</p>
+           
         </div>
     </footer>
 </body>

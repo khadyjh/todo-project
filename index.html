@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo project</title>
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <section>
             <div>
                 <img src="http://todo-list.ch/wp-content/uploads/2016/10/logo_script_blue_00-1.png" alt="to do list img">
@@ -23,39 +24,52 @@
                 </nav>
             </div>
         </section>
+    </header> -->
+    <header class="container">
+
+
+        <img src="http://todo-list.ch/wp-content/uploads/2016/10/logo_script_blue_00-1.png" alt="to do list img "
+            class="header-logo">
+
+        <nav class="header-nav">
+
+            <a href="./index.html"> home</a>
+            <a href="./about.html"> about</a>
+
+        </nav>
+
+
+
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="to-do-list container">
             <h3>To do list</h3>
-            <div>
-                <table>
+            
+                <table  >
                     <tr>
-                        <td><input type="checkbox"></td>
-                        <td>comleat task 2</td>
+                        <th>state</th>
+                        <th>task</th>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td>compleat task 3</td>
+                        <td class="td-task">comleat task 2</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td>resubmit task 1</td>
+                        <td class="td-task">compleat task 3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td class="td-task">resubmit task 1</td>
                     </tr>
                 </table>
-            </div>
+            
         </section>
 
     </main>
     <footer>
         <div>
-            <p> &copy; 2022</p>
-            <p>
-                contact us :
-            <ul>
-                <li>email:</li>
-                <li>number:</li>
-            </ul>
-            </p>
+            <p>All right reseved &copy; 2022</p>
         </div>
     </footer>
 
